@@ -19,4 +19,5 @@ public interface ArticleRepository extends CrudRepository<Article,Long>{
     // 기존 Iterable<Article> 타입을 ArrayList 수정
     @Override
     ArrayList<Article> findAll();
+
 }

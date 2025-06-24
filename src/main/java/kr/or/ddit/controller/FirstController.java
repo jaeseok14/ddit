@@ -23,6 +23,7 @@ public class FirstController {
     @GetMapping("/hi")
     public String niceToMeetYou(Model model) {
 
+
         // 컨트롤러 내 매소드는 요청 하나를 받을 목적지와도 같습니다.
         // 해당 목적지는 브라우저에 입력된 URL과 맵핑되는 request를 가지고 있고, 응답으로 나갈 정보는
         // 결과 페이지를 만들기 위한 페이지 정보입니다.

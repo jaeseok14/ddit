@@ -17,6 +17,8 @@ import lombok.ToString;
 @Getter
 @Entity
 public class Article {
+
+
     // PK와 같은 대표값을 id로 선언합니다.
     // 대표값은 사람으로 치면 주민번호와 같습니다.
     // Article 엔티티 중에서 제목과 내용이 같을 때, 대표값 id로 다른 게시글임을 확인할

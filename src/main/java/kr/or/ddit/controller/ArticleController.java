@@ -22,6 +22,7 @@ import java.util.ArrayList;
 @Controller
 public class ArticleController {
 
+
     // articleRepository 객체 선언
     // 스프링부트가 미리 생성해 놓은 Repository 객체 주입(Dependency Injection)
     // @Autowired 애노테이션은 스프링 부트에서 제공하는 애노테이션으로 이를 컨트롤러의 필드에 붙이면 스프링 부트가 만들어 놓은 객체를

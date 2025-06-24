@@ -15,6 +15,7 @@ import lombok.*;
 @AllArgsConstructor
 @ToString
 public class ArticleForm {
+
     private Long id;
     private String title;
     private String content;
