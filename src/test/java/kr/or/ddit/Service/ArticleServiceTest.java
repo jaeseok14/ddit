@@ -16,8 +16,6 @@ import static org.junit.jupiter.api.Assertions.*;
 // 해당 어노테이션이 있으면 테스트 코드에서 스프링 부트가 관리하는 다양한 객체를 주입받을 수 있습니다.
 @SpringBootTest
 class ArticleServiceTest {
-
-
     // # 테스트111
     // 테스트는 프로그램의 품질을 검증하는 것으로, 의도대로 프로그램이 잘 동작하는지 확인하는 과정입니다.
     // 테스트 초창기에는 사람이 직접 요청을 보내고 응답을 받아 일일이 확인하는 방식으로 진행하였습니다.
