@@ -36,4 +36,12 @@ public class Article {
     @Column
     private String content;
 
+    public void pacth(Article article) {
+        if(article.title!=null){
+            this.title=article.getTitle();
+        }
+        if(article.content!=null){
+            this.content=article.getContent();
+        }
+    }
 }
